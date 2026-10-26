@@ -2,6 +2,8 @@
 
 作者：**JumpingAlcohol**（B站同名）。`1.1.0-beta.1`，Windows，本地部署，MIT。把dsh-bili-scroll的新推荐发到指定微信群，让微信AI读取群友分享视频的可用字幕与三帧画面。
 
+**微信接入基础：[sourcepro5/WeChatAgent](https://github.com/sourcepro5/WeChatAgent)。** 本项目基于其后台微信收发、聊天授权与服务器回执接口开发桥接，并与[dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll)的视频读取、选片能力配合使用。JumpingAlcohol负责B站与微信之间的桥接和部署适配，感谢各上游项目。
+
 **这是DSH插件，不能直接作为WeChatAgent API v2 ZIP导入。**
 
 ## 功能
