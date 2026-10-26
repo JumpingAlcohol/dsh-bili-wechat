@@ -1,4 +1,4 @@
-# Bilibili / WeChat integration — bb王zyx
+# Bilibili / WeChat integration — JumpingAlcohol
 
 This local plugin uses the public interfaces of:
 
@@ -15,4 +15,4 @@ weflow-cli and dsh-bili-scroll are retained in licenses/. No Hook binaries,
 WeChat/DSH distributions, credentials or personal state are included.
 
 New portable configuration, compatibility installation and documentation:
-Copyright (c) 2026 bb王zyx, MIT.
+Copyright (c) 2026 JumpingAlcohol, MIT.

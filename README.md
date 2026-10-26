@@ -1,6 +1,6 @@
 # B站 × 微信 · DSH视频桥接
 
-作者：**bb王zyx**（B站同名）。`1.1.0-beta.1`，Windows，本地部署，MIT。把dsh-bili-scroll的新推荐发到指定微信群，让微信AI读取群友分享视频的可用字幕与三帧画面。
+作者：**JumpingAlcohol**（B站同名）。`1.1.0-beta.1`，Windows，本地部署，MIT。把dsh-bili-scroll的新推荐发到指定微信群，让微信AI读取群友分享视频的可用字幕与三帧画面。
 
 **这是DSH插件，不能直接作为WeChatAgent API v2 ZIP导入。**
 
