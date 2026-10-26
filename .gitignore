@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+config.json
+state/
+logs/
+*.log
+*.backup-*
+__pycache__/
+*.pyc
+local-config/
+release/

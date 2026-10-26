@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "workspace": "C:/Apps/WeChatAgent/data/workspace",
+  "scrollPlugin": "C:/Plugins/dsh-bili-scroll",
+  "scrollHome": "C:/Users/Example/.dsh/bili-duty",
+  "groupId": "",
+  "expectedGroupRef": ""
+}

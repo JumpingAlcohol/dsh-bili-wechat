@@ -1,0 +1,33 @@
+{
+  "id": "bili-wechat-cards",
+  "hostVersion": "0.4.1",
+  "files": [
+    {
+      "path": "scripts/reader-api.py",
+      "payload": "scripts/reader-api.py",
+      "sha256": "1ea8a3e221ca565a0b45ba76c3c0414776234aabea1671f761cabc9a9a479f64",
+      "acceptedBefore": [
+        "9f4ae92ff487c4c89ea1d9a6810c934c0845276ebbf61fe4c9811ace1f263b38"
+      ]
+    },
+    {
+      "path": "scripts/wechat_bilibili.py",
+      "payload": "scripts/wechat_bilibili.py",
+      "sha256": "f46b466e4a05920583afea96bfde0f423a9f95290124472e627ccc88f5d6ffff",
+      "acceptedBefore": []
+    },
+    {
+      "path": "components/qq-bridge/src/social-bridge.js",
+      "replacements": [
+        {
+          "from": "notebookEnabledFor:key=>pluginEnabled(nativeRoot,'fish-notebook',key)",
+          "to": "notebookEnabledFor:key=>pluginEnabled(historyRoot,'fish-notebook',key)"
+        },
+        {
+          "from": "path.join(nativeRoot,'config/wechatagent.json')",
+          "to": "path.join(historyRoot,'config/wechatagent.json')"
+        }
+      ]
+    }
+  ]
+}

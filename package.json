@@ -1,0 +1,13 @@
+{
+  "name":"dsh-bili-wechat",
+  "version":"1.1.0-beta.1",
+  "type":"module",
+  "main":"index.js",
+  "description":"Bridge dsh-bili-scroll recommendations and read-only Bilibili video evidence into authorized WeChat chats.",
+  "license":"MIT",
+  "author":"bb王zyx",
+  "engines":{"node":">=22.13.0"},
+  "files":["index.js","bridge.mjs","links.mjs","watch.mjs","config.mjs","config.example.json","cordis.patch.yml","LICENSE","NOTICE.md","README.md","docs","scripts","compat","licenses","Install.ps1"],
+  "scripts":{"test":"node --test test/*.test.mjs","configure":"node scripts/configure.mjs","check":"node scripts/configure.mjs --check"},
+  "dsh":{"bundle":{"patch":"./cordis.patch.yml"}}
+}
